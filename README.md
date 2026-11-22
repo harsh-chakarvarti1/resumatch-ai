@@ -13,3 +13,7 @@ Full-stack ATS resume keyword scorer and job application tracker built with Reac
 - **Frontend:** React, Vite, TypeScript, Tailwind CSS, Lucide React
 - **Backend:** Node.js, Hono, TypeScript
 - **Database:** PostgreSQL (Neon)
+
+## Have a look at Resumatch-AI
+
+<img width="2564" height="1728" alt="image" src="https://github.com/user-attachments/assets/02d4dc7b-ffc1-4765-b736-992d4ed2bd39" />
