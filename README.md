@@ -1,12 +1,15 @@
-# ResuMatch AI
-
 Full-stack ATS resume keyword scorer and job application tracker built with React, TypeScript, Vite, Tailwind CSS, Node.js, Hono, and PostgreSQL (Neon).
 
-## Features
-- **ATS Keyword Matcher:** Extracts technical and domain keywords from a resume and job description to calculate a match score along with matched and missing keywords.
-- **Application Tracker:** Persists scans in PostgreSQL and lets you filter by status (`Scanned`, `Applied`, `Interview`, `Offer`, `Rejected`), search by role/company/resume, update status, or delete records.
+## Live Links
+- **Frontend (Vercel):** https://resumatch-ai-three.vercel.app/
+- **Backend API (Render):** https://resumatch-ai-meof.onrender.com/api/health
+
+## Key Features
+- **ATS Keyword Matcher:** Extracts keywords from a pasted resume and job description to compute an ATS match score along with matched and missing keywords.
+- **Persistent Application Tracker:** Stores scans in PostgreSQL and supports status updates (`Scanned`, `Applied`, `Interview`, `Offer`, `Rejected`), status/text filtering, and deletion.
+- **Production Routing:** Uses Vercel rewrites to proxy `/api/*` requests to the Hono backend while keeping database credentials isolated on the server.
 
 ## Tech Stack
 - **Frontend:** React, Vite, TypeScript, Tailwind CSS, Lucide React
-- **Backend:** Node.js, Hono, TypeScript (`tsx`)
+- **Backend:** Node.js, Hono, TypeScript
 - **Database:** PostgreSQL (Neon)
